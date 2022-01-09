@@ -1,116 +1,55 @@
 <!DOCTYPE html>
 
-
-
-
-
-
-
 <html lang="en">
 
 
 
-
-
-
-
 <head>
-
-
-
-<title>Naudingos nuorodos</title>
-
-
-
+	<title>Winscp</title>
+	<link rel="icon" type="image/x-icon" href="Img/favicon.ico">
 </head>
 
 
-
-
-
-
-
 <body>
-
-
-
+	
+	<header>
+		<a href="index.html"><img src="Img/katinukas.jpg" alt"katinukas" height="200"/></a>
+	</header>
 	
 
-
-
-	<h1>
-
-
-
-		<a href="index.html">
-
-
-
-			<img src="Img/katinukas.jpg" height="200">
-
-
-
-		</a>
-
-
-
-	</h1>
-
-
-
-	
-
-	<h2>
-
-	<p> 
-
-
-
+	<nav>
+	<h3>
 		<a href="index.html">Index</a>
-
-
-
 		<a href="uzduotys.html">Uzduotys</a>
-
-		
-
 		<a href="Naudingos.html">Naudingos nuorodos</a>
+	</h3>
+	</nav>
 
-
-
-	</p>
-
-	</h2>
-
-		
-
-
-
-
+	<main>
 
 		<a href="https://winscp.net/eng/download.php">Winscp download</a>
 
+		<article>
+			<h3>LOGIN DETAILS</h3>
+			<p>
+				File protokol: FTP
+			</p>
+			<p>
+				Host name: mybitbybit.site
+			</p>
+			<p>
+				User Name: java34a@mybitbybit.site
+			</p>
+			<p>
+				Password: A3Yb64249x8wKA5f
+			</p>
+		</article>
 
+	</main>
 
-	<h3>LOGIN DETAILS</h3>
-
-	
-
-	<p>
-	File protokol: FTP
-	</p>
-
-	<p>
-	Host name: mybitbybit.site
-	</p>
-
-	<p>
-	User Name: java34a@mybitbybit.site
-	</p>
-
-	<p>
-	Password: A3Yb64249x8wKA5f
-	</p>
+	<footer>
+		© 2022 Mykolas Tokarenko
+	</footer>
 
 </body>
 

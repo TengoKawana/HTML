@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 
-
-
 <html lang="en">
 
-
-
 <head>
-
 	<title>Index</title>
-
 </head>
 
-
-
 <body>
-
-
 
 	<header>
 		<a href="index.html"><img src="Img/katinukas.jpg" alt"katinukas" height="200"/></a>
 	</header>
 
 	<nav>	
+		<h3>
 		<a href="Naudingos.html">Naudingos nuorodos</a>
-
 		<a href="uzduotys.html">Uzduotys</a>
-		
 		<a href="http://mybitbybit.site/java34">Mybitbybit</a>
+		</h3>
 	</nav>
 	
+	<main>
+		<h1>Welcome to my page</h1>
+	</main>
 
-	<h2>Welcome to my page</h2>
-
-<footer>
-© 2022 Mykolas Tokarenko
-</footer>
+	<footer>
+		© 2022 Mykolas Tokarenko
+	</footer>
 
 </body>
