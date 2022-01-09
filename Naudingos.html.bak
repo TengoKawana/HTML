@@ -1,40 +1,99 @@
 <!DOCTYPE html>
 
+
+
 <html lang="en">
 
+
+
 <head>
+
 <title>Naudingos nuorodos</title>
+
 </head>
 
+
+
 <body>
+
 	
+
 	<h1>
+
 		<a href="index.html">
-			<img src="img/katinukas.jpg" height="200">
+
+			<img src="Img/katinukas.jpg" height="200">
+
 		</a>
+
 	</h1>
+
 	
+	<h2>
 	<p> 
+
 		<a href="index.html">Index</a>
-		<a href="bookmarks.html">Paveiksliukai ir bookmarkai</a>
+
+		<a href="uzduotys.html">Uzduotys</a>
+
 	</p>
+	</h2>
 		
-	
-		<a href="https://validator.w3.org/">Validator (kodo patikra)</a>
-		
-	
-		<a href="https://pastebin.com/">Pastebin (kodo nuorodos siuntimas)</a>
-	
-	
-		<a href="https://www.w3schools.com/">W3School (Tutorials)</a> 
-	
-	
-		<a href="https://www.lipsum.com/">Lorem Ipsum</a>
-	
-	
-		<a href="http://mybitbybit.site/java34">Bit by Bit</a>
-	
-	
-		<a href="https://https://inv.bit.lt/login">Dienynas</a>
-	
+	<p>
+	</p>
+
+
+	<p>
+	Kodo patikra
+		<a href="https://validator.w3.org/">Validator</a>
+	</p>
+
+
+	<p>
+	Kodo nuorodos siuntimas
+		<a href="https://pastebin.com/">Pastebin</a>
+	</p>
+
+
+	<p>
+	Tutorials
+		<a href="https://www.w3schools.com/">W3School</a> 
+	</p>
+
+
+	<p>
+	Lorem Ipsum
+		<a href="https://www.lipsum.com/">Lipsum</a>
+	</p>
+
+
+	<p>
+	Bit by Bit
+		<a href="http://mybitbybit.site/java34">Mybitbybit</a>
+	</p>
+
+
+	<p>
+	Dienynas
+		<a href="https://inv.bit.lt/login">Dienynas</a>
+	</p>
+
+
+	<p>
+	Winscp
+		<a href="winscp.html">Winscp</a>
+	</p>
+
+
+	<p>
+	GitHub
+		<a href="https://github.com/">GitHub</a>
+	</p>
+
+
+<footer>
+© 2022 Mykolas Tokarenko
+</footer>
+
 </body>
+
