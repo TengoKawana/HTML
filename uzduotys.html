@@ -9,11 +9,6 @@
 		<meta charset="UTF-8">
 	</head>
 
-<style>
-	table, th, td {
-	border:1px solid black;
-	}
-</style>
 
 <body>
 
@@ -28,189 +23,13 @@
 		</h3>
 	</nav>
 
-	<nav>
-		<h2> UZDUOTYS </h2>
-			<p><a href="#S1">Nuorodu atidarymas naujame lange/tabe,</a></p>
-			<p><a href="#S2">Simboliukas salia nuorodos</a></p>
-			<p><a href="#S3">Svetaineje panaudoti paveiksliukus (emoji)</a></p>
-			<p><a href="#S4">Nurodyti paveiksliuka, kuris rodomas salia title</a></p>
-			<p><a href="#S5">Isikelti i kazkoki puslapi kokia nors lentele</a></p>
-	</nav>
-
 	<main>
 		<article>
-			<h2 id="S1"> Nuorodu atidarymas naujame lange/tabe </h2>
-			<p> 
-				UZDUOTIS: Padaryti, kad visos isorines nuorodos atsidarytu naujame lange/tabe
-			</p>
-			<p>
-				TEORIJIJA: By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
-				The target attribute specifies where to open the linked document.
-				The target attribute can have one of the following values:
-				_self - Default. Opens the document in the same window/tab as it was clicked
-				_blank - Opens the document in a new window or tab
-				_parent - Opens the document in the parent frame
-				_top - Opens the document in the full body of the window
-			</p>	
-			<p>
-				PAVYZDYS: Use target="_blank" to open the linked document in a new browser window or tab:
-				<a href="http://mybitbybit.site/java34/" target="_blank">Visit Bitbybit</a>
-			</p>
-			<p>
-				<img src="Img/New_tab.jpg" height="300">
-			</p>
-			<p>
-				<a href="#">Ivirsu</a> 
-			</p>
+			<a href="Uzduotys/2022_01_08.html">2022.01.08</a>
+			<a href="Uzduotys/2022_01_12.html">2022.01.12</a>
 		</article>
-		<article>
-			<h2 id="S2">Simboliukas salia nuorodos</h2>
-			<p> 
-				UZDUOTIS: Padaryti, kad salia isoriniu nuorodu butu mazytis simboliukas (kokia nors strelyte ar pan., zr. VIkipedija kaip pavyzdi)
-			<p> 
-				TEORIJA: Symbols that are not present on your keyboard can also be added by using entities.
-				HTML entities were described in the previous chapter.
-				Many mathematical, technical, and currency symbols, are not present on a normal keyboard.
-				To add such symbols to an HTML page, you can use the entity name or the entity number (a decimal or a hexadecimal reference) for the symbol.
-			</p>
-			<p>
-				PAVYZDYS: Display the euro sign, �, with an entity name
-			</p>
-			<p>
-				<img src="Img/Symbol1.jpg" height="300">
-			</p>
-			<p>
-				<a href="https://www.w3schools.com/charsets/ref_utf_math.asp">Some Mathematical Symbols Supported by HTML &#8734;</a>
-			</p>
-			<p>
-				<a href="https://www.w3schools.com/charsets/ref_utf_greek.asp">Some Greek Symbols Supported by HTML &#931;</a>
-			</p>
-			<p>
-				<a href="https://www.w3schools.com/html/html_symbols.asp">HTML symbols can be found here &#169;</a>
-			</p>
-			<p>
-				<a href="#">Ivirsu</a> 
-			</p>
-		</article>
-		<article>
-			<h2 id="S3">Svetaineje panaudoti paveiksliukus (emoji)</h2>
-			<p> 
-				UZDUOTIS: Svetaineje panaudoti paveiksliukus (emoji), atkreipkite demesi i charset atributa, nurodoma head sekcijoje
-			<p> 
-				TEORIJA: What are Emojis? Emojis look like images, or icons, but they are not. They are letters (characters) from the UTF-8 (Unicode) character set. UTF-8 covers almost all of the characters and symbols in the world.
-				To display an HTML page correctly, a web browser must know the character set used in the page. This is specified in the < meta > tag: < meta charset="UTF-8" >. 
-					<a href="https://www.w3schools.com/charsets/ref_emoji.asp">Emojis are also characters from the UTF-8 alphabet &#9757;</a>
-			</p>
-			<p>
-				<a href="https://www.w3schools.com/charsets/ref_emoji.asp">HTML Encoding (Character Sets) &#9889;</a>
-			</p>
-			<p>
-				<a href="#">Ivirsu</a> 
-			</p>
-		</article>
-		<article>
-			<h2 id="S4">Nurodyti paveiksliuka, kuris rodomas salia title</h2>
-			<p> 
-				UZDUOTIS: Nurodyti paveiksliuka, kuris rodomas salia title
-			<p> 
-				TEORIJA: A favicon is a small image displayed next to the page title in the browser tab. A favicon is a small image, so it should be a simple image with high contrast. 
-				reikes irgi papildyti head sekcija
-				You can also create your own favicon on sites like <a href="https://favicon.cc">favicon</a
-			</p>
-			<p>
-				To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
-				Next, add a < link > element to your "index.html" file, after the < title > element, like this:
-			</p>
-			<p>
-				<img src="Img/Favicon_example.jpg" height="300">
-			</p>
-				Now, save the "index.html" file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title
-			<p>
-				<a href="#">Ivirsu</a> 
-			</p>
-		</article>
-		<article>
-			<h2 id="S5">Isikelti i kazkoki puslapi kokia nors lentele</h2>
-			<p> 
-				UZDUOTIS: Isikelti i kazkoki puslapi kokia nors lentele
-			<p> 
-				TEORIJA: HTML tables allow web developers to arrange data into rows and columns. A table in HTML consists of table cells inside rows and columns. 
-			</p>
-			<p>
-				TABLE CELLS. TD elements define table cells. Each table cell is defined by a < td > and a < /td > tag. td stands for table data. Everything between < td > and < /td > are the content of the table cell. Note: table data elements are the data containers of the table.
-				They can contain all sorts of HTML elements; text, images, lists, other tables, etc.
-			</p>
-			<p>
-				PAVYZDYS:
-			</p>
-			<p>
-				<img src="Img/Table1.jpg" height="500">
-			</p>
-						<p>
-				<table style="width:100%">
-					<tr>
-						<td>A</td>
-						<td>B</td>
-						<td>C</td>
-					</tr>
-				</table>
-			</p>
-			<p>
-				TABLE ROWS. TR elements define table rows. Each table row starts with a < tr>  and end with a < /tr > tag. tr stands for table row. 
-			</p>
-			<p>
-				PAVYZDYS:
-			</p>
-			<p>
-				<table style="width:100%">
-					<tr>
-						<td>Vilnius</td>
-						<td>Minsk</td>
-						<td>Shanghai</td>
-					</tr>
-					<tr>
-						<td>Eastern European Time (UTC +2)</td>
-						<td>Moscow Standard Time (UTC +3) </td>
-						<td>China Standard Time (UC +8)</td>
-					</tr>
-				</table>
-			</p>
-			<p>
-				TABLE HEADERS. Sometimes you want your cells to be headers, in those cases use the < th > tag instead of the < td > tag. TH elements define table headers. 
-			</p>
-			<p>
-				PAVYZDYS:
-			</p>
-			<p>
-				<table style="width:100%">
-					<tr>
-						<th>SALIS</th>
-						<th>SOSTINE</th>
-											</tr>
-					<tr>
-						<td>Japonija</td>
-						<td>Tokyo</td>
-					</tr>
-					<tr>
-						<td>Cile</td>
-						<td>Santiago</td>
-					</tr>
-					<tr>
-						<td>Islandija</td>
-						<td>Reikjavikas</td>
-					</tr>
-				</table>
-			</p>
-			<p>
-				Daugiau apie HTML lenteles <a href="https://www.w3schools.com/html/html_tables.asp">W3school</a>
-			</p>
-			<p>
-				<a href="#">Ivirsu</a> 
-			</p>
-		</article>
-			
 	</main>
-	
+		
 	<footer>
 		&copy; 2022 Mykolas Tokarenko
 	</footer>
