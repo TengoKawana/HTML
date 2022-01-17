@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <style>
+        /* GENERAL */
+        body {
+            margin: 0;
+        }
+        
+        #page {
+            background-color: none;
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0px;
+        }
+        
+        
+        /* HEADER */
+        #page td {
+            padding: 10px;
+            padding-left: 30px;
+        }
+        
+        #page td#logo {
+            background-color: none;
+            padding-left: 10px;
+        }   
+        #logo table {
+            background-color: none;
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 10px;
+            height: 100px;
+        }
+        #logo #left {
+            background-color: none;
+            width: 20%;
+            text-align:center;
+            padding: 10px;
+            vertical-align: middle;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 48px;
+            /*border: 1px solid black;*/
+        }   
+        #logo #middle {     
+            background-color: none;
+            width: 2px;
+            padding: 0px;
+        }
+        #logo #right {
+            background-color: none;
+            width: calc(80% - 2px);
+            text-align:center;
+            padding: 0px;
+            vertical-align: middle;
+            /*border: 1px solid black;*/
+        }
+        
+        
+        /* NAV */
+        #page td#menu {
+            background-color: none;
+            padding-left: 10px;
+            font-size: 0px;
+        }
+        #menu ul {          
+            background-color: none;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }       
+        #menu li {
+            display: inline-block;
+            background-color: none;
+            margin: 0px;
+            font-size: 16px;
+            /*border: 1px solid black;*/
+            padding: 10px;
+            margin-right: 2px;
+        }
+        
+        /* MAIN */
+        #page td#content {
+            background-color: none;
+            padding: 10px 50px;
+        }       
+        
+        /* FOOTER */
+        #page td#copyright {
+            background-color: none; 
+            padding: 0 10px;            
+        }
+        #copyright table {
+            width: 100%;
+            /*border: 1px solid black;*/
+        }
+        #copyright table td {
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table id="page">
+        <tr>
+            <td id="logo">
+                <tr>
+                    
+                </tr>
+                <table>
+                    <tr>
+                        <td id="left">Logo</td>
+                        <td id="middle"></td>
+                        <td id="right">Welcome to my site</td>
+                    </tr>               
+                </table>            
+            </td>
+        </tr>
+        <tr>
+            <td id="menu">
+                <ul>
+                  <li>Coffee</li>    
+                  <li>Tea</li>
+                  <li>Milk</li>
+                </ul>  
+            </td>
+        </tr>
+        <tr>
+            <td id="content">
+                <h1>Heading</h1>
+                <p>Lorem ipsum</p>
+                <p><a href="#">Top</a></p>
+                <h1>Heading</h1>
+                <p>Lorem ipsum</p>
+                <p><a href="#">Top</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td id="copyright">
+                <table>
+                    <tr>
+                        <td>Footer</td>
+                    </tr>
+                </table>            
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
