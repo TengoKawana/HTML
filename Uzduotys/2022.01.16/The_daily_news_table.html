@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>The Daily News (Table)</title>
+    <meta charset="UTF-8">
+    <style>
+         /* GENERAL */
+         body {
+            background-color:blanchedalmond;
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            background-color: gold;
+            border-collapse: collapse;
+            display: inline-block;
+            align-items: left;
+        }
+
+        /* HEADER */
+        .header {
+            width: 100%;
+            text-align: center;
+            background-color:blueviolet;
+            color: #4f4f50;
+            font-size: 75px;
+            font-weight: bold;
+        }
+
+        /* MAIN */
+        .blue {
+            width: 90%;
+            height: 4%;
+            background-color: rgba(39,0,255,255);
+            color: rgba(243,241,255,255);
+            font-size: 20px;
+            font-weight: bold;
+            padding: 3px 3px;
+            display: inline-block;
+            display: flex;
+            align-items: center;
+        }
+
+        .headline {
+            background-color:chartreuse;
+            margin-top: 16px;
+            margin-bottom: 20px;
+            font-size: 50px;
+            color: rgba(96,96,97,255);
+            font-weight: bold;
+            text-align: center;
+            font-stretch: expanded;
+        }
+
+        .midlerow {
+            width: 100%
+            display: inline-block;
+        }
+
+        .leftcolumn {
+            display: block;
+            background-color: purple;
+            width: 30.00%;
+        }
+
+        .coupon {
+            display: inline-block;
+            border: 5px dashed black;
+            width: 296px;
+            height: 182px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            text-align:center;
+            color:#fa0000;
+            font-size: 35px;
+        }
+
+        .midlecolumn {
+            display: inline-block;
+            background-color: darkcyan;
+            width: 20.00%;
+            margin-left: 5%;
+        }
+
+        .rightcolumn {
+            display: inline-block;
+            background-color: darksalmon;
+            width: 20.00%;
+            margin-left: 5%;
+        }
+
+        .yourname {
+            text-align:center;
+            font-weight: bold;
+        }
+
+        h2 {
+            color:#fa0000;  
+        }
+        
+        /* FOOTER */
+        .footer {
+            background-color: none;
+            color: #a6a6a6;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td class="header">THE DAILY NEWS</td>
+    </tr>
+    <tr>
+        <td>
+            <table class="blue">
+                    <tr>
+                        <td>Schoolnamecom</td>
+                        <td>THIS SCHOOL'S BEST NEWS</td>
+                        <td>$1.00</td>
+                    </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="headline">
+        <td>YOUR HEADLINE GOES HERE</td>
+    </tr>
+    <tr>
+        <td>
+            <table class="midlerow">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><img src="portrait.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="coupon">- COUPON -</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="midlecolumn">
+                                    <h2>Bibbity Bobbity Boo</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet urna in enim sollicitudin blandit. Curabitur dictum malesuada semper. Donec fermentum dui in sagittis dictum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </td>
+                                <td class="rightcolumn">
+                                    <h2>Bibbity Bobbity Boo</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet urna in enim sollicitudin blandit. Curabitur dictum malesuada semper. Donec fermentum dui in sagittis dictum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="footer">
+        <td>K-5 Computer Lab oakdome.com</td>
+    </tr>
+</table>
+
+</body>
+</html>

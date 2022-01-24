@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>2022.01.23</title>
+</head>
+
+<body>
+
+<p>reiketu vengti naudoti px puslapiuopse, kitaip ivairiuose irenginiuose skirtingai matysis ir prisitaikys: ekrano dydis, zoom, srifto dydis
+> reikertu vengti horizontalaus scroll
+</p>
+
+<p>clear yra tarsi nuk4limas i kita eiluyte</p>
+
+<p>visada kai naudojam float, naudojam ir clear</p>
+
+<p> paragrafas < p > yra blokas</p>
+
+<p>yra 2 psl kurimo strategijos:
+    1. top - bottom: pradziai sudeliojama struktura, veliau diurbama ties detalemis
+    2. bottom - up: daroma be strukturos kas elementa 
+    reiketu tureti balansa tarp abieju budu
+</p>
+
+<p>layout = isdestymas</p>
+
+<p> < style > daly yra gerea ideja delioti elementus tam tikra seka, pvz pradzioj elementai kurie apibudina font, po to box, po to float </p>
+
+<p>
+Bootrastrap yra tam tikras karkasas
+    <a href="https://getbootstrap.com/">Bootstrap</a>
+</p>
+
+<p>
+    <a href="https://necolas.github.io/normalize.css/">dydziu ir sriftu normalizavimas</a>
+</p>
+
+<p>
+    <a href="https://en.wikipedia.org/wiki/Responsive_web_design">kas yra Responsive WEB design</a>
+</p>
+
+<p>
+    <a href="https://www.w3schools.com/howto/howto_css_clearfix.asp">Clear Floats</a>
+</p>
+
+<p>
+    <a href="Float_pvz1.html">Float pvz 1</a>
+</p>
+
+<p>
+    <a href="Float_pvz2.html">Float pvz 2</a>
+</p>
+
+<p>
+    <a href="https://www.w3schools.com/css/css_float.asp">CSS Layout - float and clear</a>
+</p>
+
+<p>
+    <a href="https://www.w3schools.com/css/css_rwd_grid.asp">Responsive Web Design - Grid-View</a>
+</p>
+
+<p>
+    <a href="https://www.w3schools.com/css/css_rwd_frameworks.asp">Responsive Web Design - Frameworks</a>
+</p>
+
+
+<h3>ar gali elementas tureti keleta klasiu?</h3>
+<p>gali. 
+atributas "class" yra vienas, tiesiog viduje tarp kabučių suvardinam klases atskyrę jas tarpu</p>
+
+<h3>kada elemente geriau nurodyti clas=, o kada id=?</h3>
+<p> id visada unikalus; jeigu nesam tikri kad toks visoje svetaineje bus vienintelis - geriau naudoti class. Id verta naudoti tais atvejais, kai noresim kazka pasiekti per Javascript. Iki tol - argumento naudoti id vietoje class nera - na, tiesiog bus vienas elementas duotam class ir tiek</p>
+
+<h3>kuriais atvejais/kuriems elementams galima naudoti absoliučius dydžius? minėjot, kad font geriau nurodyti santykiniu dydžiu, kaip tai padaryti?</h3>
+<p>geriau naudoti santykinius visada isskyrus atvejus, kai esam tikri kad tai neisgadins dizaino. Pvz. lenteles remelis - sakom 2px ir dziaugiames, visai negalvodami kad ten turi buti 2% ir panasiai. Apie tai kaip šriftus valdyti, kalbėsim kitą savaitę, esmė kad šriftai nebus priklausomi nuo lango, bet jie turi būti tokie, kurie reaguoja į zoom (priartinimą) ir į šrifto dydžio pakeitimą, ir va čia ir problema - atitinkamai, naudojam em/rem, bet apie tai dar pasakosiu
+    Tiesiog, žiūrim ko reikia. Jei turi prie kažko taikytis ir keistis - vadinasi, santykiniai. Jeigu galima nustatyti kažką, kas bus visada toks ir tiks visada toks nepriklausomai nuo nieko - fiksuojam.
+    Šią akimirką svarbu išsinešti tai, kad išdėstymo (layout) elementai neturėtų būti fiksuoti, pvz. ten meniu skirta 200px - vietoje to rašom 20% ar pan.
+    Padding/margin ar santykiniai - čia pilka zona, ir priklauso nuo to, ką norim jais padaryti. Geriau arba procentais, arba irgi per em/rem, bet apie tai kalbėsim. Kolkas rašau px
+    Paveiksliukams - ginkdie ne px, o santykiniai pločiai, kad jie prisitaikytų prie ekrano, o ne iškart išmuštų visas ribas ir būtų horizontalus tampymas - čia absoliutus blogis
+</p>
+
+<h3>Kokie yra stilizavimo budai?</h3>
+<p>1) display: table display:table-row display: table-cell
+    2) position: relative position: absolute
+    3) float: left float: right
+    4) display: flex
+    5) display: grid
+</p>
+
+<h3>Uzduotys</h3>
+<p>visose uzduotyse panaudoti bent vienq is 3 stilizavimo budu</p>
+
+<h4>Uzduotis1</h4>
+<p>
+   <img src="/2022.01.23/Uzduotis1.png">
+   <a href="/2022.01.23/Uzduotis1.html">Pirma</a>
+   dideli paveiksliuka - background colour
+</p>
+
+<h4>Uzduotis2</h4>
+<p>
+    <img src="/2022.01.23/Uzduotis2.png"> 
+</p>
+
+<h4>Uzduotis3</h4>
+<p>
+    <img src="/2022.01.23/Uzduotis3.png">
+</p>
+
+
+</body>
+</html>
