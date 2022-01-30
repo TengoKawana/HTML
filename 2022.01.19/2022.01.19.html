@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2021.01.19</title>
+</head>
+
+<body>
+
+    <p>lentele turi stiliu pagal nutylejima, o div ne - reikia aporasyti su CSS</p>
+    
+    <p>div yra blokas, todel nukelia i apacia / i nauja eilute</p>
+
+    <p>fonas - santykinis konteineris, o elementai - absoliutus</p>
+
+    <p> venkite nurodyti fiksuotą elementų plotį (tipo, width: 1000px), kuris pas jus ekrane atrodo fainai, bet pakeitus lango plotį atveda prie horizontalaus scrollinimo. Taip negali būti. Vertikalus slankojimas yra ok, horizontalus - šiukštu ne. Tas reiškia, kad reikėtų stengtis naudoti santykinius pločius, su procentais, o ne su px. Išimtis - nedideli elementai, kur žinote, kad tilps ir mažučiame ekrane, pvz. logo ir pan. Bet dėti pločius ant body ar viso dizaino su px - labai prasta idėja. Išsibandykite prieš teikiant - pamažinkite langą ir pažiūrėkite ar neatsirando horizontalus slankiojimas</p>
+    
+    <p>reikėtų vengti dubliuoti kodą, t.y. jeigu yra kažkoks stilius, reikėtų jį aprašyti vienoje vietoje, ir tada uždėti ant kelių elementų, o ne kiekvienam elementui dėti atskirą stilių, ir gaunasi daug labai stilių, nors viduje jie visi vienodi. Nesikartokime kode, nes kartojatės - paskui košmaras bandyti tai modifikuoti, jau nekalbant apie tai, kad turinys dažniausiai atkeliauja iš duomenų bazės, vadinasi, niekas ten rankomis jūsų numatytų stilių nedėlios. Bus HTML tag'ai, ir tiek - niekas nežymės ten class="text1", class="text2" - tekstų bus neaišku kiek, tiek, kiek žmogus parašė, o jums reikia rašyti stilių kuris VISUS elementus parodytų gerai, t.y. stilizuojam ne .text1 ir ne #text1, o <!--<p>--> ir t.t.</p>
+    
+    <p> jei darote nebe su lentelėmis, o su <!--<div>--> rekomenduoju ne vienos "lentelės" viduje viską sudėti, o pradžioje išskaidyti į <!--<header> <footer> <main>--> ir t.t., ir <!--<div>--> rašyti jau tų dalykų viduje. Net ir su <!--<table>--> taip galima padaryti, jei dedame ne kelias <!--<tr>-->, bet užbaigiam <!--<table>-->, ir tada pradedam naują <!--<table></table>--> kodo skaitomumas labai stipriai išaugs, juolab, kad patys pastebite jog naudojate atitinkamus id ir pan. Kitaip tariant, geriau kuo galima labiau rištis prie HTML standartinių tag'ų, o ne prie savo sugalvotų, nes tikėtis, kad būtent jie bus sudėlioti ir veiks yra racionalu, t.y. jums reikės stilizuoti duomenis, kuriuos gausite, o ne atvirkščiai, kažkas taikysis prie jūsų stiliaus. Vadinasi, stilizuoti reikia nežinant, koks bus turinys, bandant numatyti, kad bet kuriuo atveju rodytų gerai</p>
+    
+    <p>diskutavome dėl visko dėjimo į vieną lentelę vs turėjimą kelių lentelių. Tai tiesiog kai turim <!--<table>-->, kadangi niekas taip realybėje nedaro, darė labai seniai, o dabar nebedaro, ir todėl čia tik mokymosi/supratimo sumetimais - nėra skirtumo ar viskas į vieną lentelę, ar skaidom. bet kai pereinam prie <!--<div>--> ir norim naudoti semantinius tag'us (header/footer/etc) - natūraliai norisi kramtyti puslapį mažesniais gabaliukais, o ne turėti vieną didelį griozdą. Jį galima turėti, bet tai yra <!--<body>-->, o jis paskui skyla - header, footer, main, etc. Ir jie valdomi atskirai. Tai kaip minimum gaunasi kad "lentelės" bus kiekvienai daliai atskiros. Negana to, dalis mechanizmų veikia taip, kad kai yra lentelė - ją rodo tik tada, kai perskaito <!--</table>--> kai viskas užsidaro, o tai reiškia, kad puslapis kraunamas nežmoniškai ilgai. Vietoje to, norisi kad perskaitė gabaliuką - iškart parodo. Ir taip ir būna, kai <!--<div>--> arba <!--<table>--> būna mažesni. Aišku, prarandam galimybę viską valdyti vienu metu, bet tą reikia spręsti per CSS ir class ir t.t., o ne tiesiog viską dedant į vieną stalčių. Skaldyk ir valdyk yra labai geras principas</p>
+    
+    <p> kai kažkas neveikia - labai gera įdėja susirasti pavyzdį, arba savo anksčiau rašytą, arba kažkur internete, ir kruopščiai palyginti kiekvieną simbolį - kablelį, kabutę, tarpą ir t.t. Pasirodo, visi tie dalykai gali turėti įtakos. Kitąsyk paskui parašius pastebėti būna labai sunku, nes net nekyla mintis kad tame gali būti bėda. Čia viena iš priežasčių kodėl aš ne mintinai moku, o kopijuoju iš kažkur - išvengiu tada rašybos klaidų, sintaksės kažkokių smulkmenų ir t.t. Norint įsidėmėti ir išmokti, aišku, geriau rašyti ranka - tada geriau įsisavina. Bet tą darant labai svarbu nesuklysti ir pan.</p>
+    
+    <p>vertėtų žinoti, kad vienas elementas gali turėti keletą klasių, t.y. pvz <!--<div class="vienas antras trecias">--> - tai šitam div galios CSS ir .vienas, ir .antras ir .trecias aprasyti stiliai. Tai labai patogu norint nekartoti to paties daug kartu. Visada, visada, kai kazka rasote ka jau parasete - reiketu stabteleti ir pagalvoti, ar nera trumpesnio/patogesnio budo</p>
+    
+    <p></p>
+    <p></p>
+</body>
+
+</html>
